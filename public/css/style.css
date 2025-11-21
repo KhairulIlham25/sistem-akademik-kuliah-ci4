@@ -1,0 +1,186 @@
+/* === GLOBAL === */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #F4F6FA;
+    margin: 0;
+    color: #2E2E2E;
+}
+
+/* === NAVBAR === */
+.navbar {
+    background: #0D47A1;
+    padding: 14px 24px;
+    color: #fff;
+}
+.navbar-brand {
+    font-weight: 600;
+    color: #fff !important;
+    font-size: 18px;
+}
+.btn-logout {
+    background: #fff;
+    color: #0D47A1 !important;
+    border-radius: 6px;
+    font-weight: 500;
+    padding: 6px 14px;
+    transition: 0.3s;
+}
+.btn-logout:hover {
+    background: #E8EAF6;
+}
+
+/* === SIDEBAR === */
+.sidebar {
+    width: 230px;
+    background: #ffffff;
+    border-right: 1px solid #d7dce3;
+    min-height: 100vh;
+    padding-top: 20px;
+    position: sticky;
+    top: 0;
+}
+.sidebar a {
+    display: block;
+    padding: 12px 22px;
+    text-decoration: none;
+    color: #2E3A59;
+    font-weight: 500;
+    border-left: 4px solid transparent;
+    transition: 0.25s;
+}
+.sidebar a:hover {
+    background: #E8F0FF;
+    border-left: 4px solid #1976D2;
+    color: #0D47A1;
+}
+.sidebar a.active {
+    background: #E3EDFF;
+    border-left: 4px solid #0D47A1;
+    color: #0D47A1;
+}
+
+/* === PAGE CONTENT === */
+.content {
+    flex: 1;
+    padding: 35px;
+}
+
+/* === TITLES === */
+h2, h3 {
+    font-weight: 600;
+    color: #0D47A1;
+}
+
+/* === TABLE (CLEAR + MODERN + KONTRAS) === */
+.table-container {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0px 6px 18px rgba(0,0,0,0.08);
+  overflow: hidden;
+}
+
+/* Header jelas dan kontras */
+.table thead th {
+  background: #1E3A8A; /* Biru utama */
+  color: #ffffff !important;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 13px;
+  padding: 14px;
+  border: none;
+  text-align: center;
+}
+
+/* Baris tabel rapi */
+.table tbody tr {
+  background: #ffffff;
+  border-bottom: 1px solid #E5E7EB; /* garis halus antar baris */
+  transition: 0.25s;
+}
+
+/* Teks tabel lebih gelap agar terbaca */
+.table tbody td {
+  padding: 12px 14px;
+  font-size: 14px;
+  color: #111827;
+}
+
+/* Hover jelas */
+.table tbody tr:hover {
+  background: #EEF4FF; /* Biru sangat muda */
+}
+
+/* Aksi di kanan tetap rapih */
+.table td:last-child {
+  white-space: nowrap;
+}
+
+.table-responsive {
+  border-radius: 10px;
+  overflow-x: auto;
+  scrollbar-width: thin;
+  scrollbar-color: #3B82F6 #EEF4FF;
+}
+
+.table-responsive::-webkit-scrollbar {
+  height: 8px;
+}
+.table-responsive::-webkit-scrollbar-thumb {
+  background: #3B82F6;
+  border-radius: 10px;
+}
+.table-responsive::-webkit-scrollbar-track {
+  background: #EEF4FF;
+}
+.table th, .table td {
+  white-space: nowrap;
+}
+
+/* === BUTTONS === */
+.btn-primary {
+    background-color: #1976D2;
+    border-color: #1976D2;
+}
+.btn-primary:hover {
+    background-color: #0D47A1;
+    border-color: #0D47A1;
+}
+.btn-secondary {
+    background: #607D8B;
+    border: none;
+}
+.btn-secondary:hover {
+    background: #455A64;
+}
+
+/* === FORM === */
+form label {
+    font-weight: 600;
+    color: #2E2E2E;
+}
+.form-control {
+    border-radius: 6px;
+}
+.form-control:focus {
+    border-color: #1976D2;
+    box-shadow: 0 0 0 3px rgba(25,118,210,0.2);
+}
+
+/* === CARD === */
+.card {
+    border-radius: 12px;
+  border: 1px solid #e4e9f2;
+    background: white;
+    box-shadow: 0px 4px 14px rgba(0,0,0,0.05);
+}
+
+/* === FOOTER === */
+footer {
+    background: #0D47A1;
+    color: white;
+    padding: 14px;
+    font-size: 14px;
+    margin-top: 20px;
+    text-align: center;
+}

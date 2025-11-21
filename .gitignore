@@ -6,41 +6,27 @@
 .DS_Store
 .AppleDouble
 .LSOverride
-
-# OS X Thumbnails
 ._*
 
-# Windows image file caches
+# Windows
 Thumbs.db
 ehthumbs.db
 Desktop.ini
-
-# Recycle Bin used on file shares
 $RECYCLE.BIN/
-
-# Windows Installer files
 *.cab
 *.msi
 *.msm
 *.msp
-
-# Windows shortcuts
 *.lnk
 
 # Linux
 *~
-
-# KDE directory preferences
 .directory
-
-# Linux trash folder which might appear on any partition or disk
 .Trash-*
 
 #-------------------------
-# Environment Files
+# Environment Files (SANGAT PENTING)
 #-------------------------
-# These should never be under version control,
-# as it poses a security risk.
 .env
 .vagrant
 Vagrantfile
@@ -77,9 +63,8 @@ user_guide_src/cilexer/pycilexer.egg-info/*
 # Test Files
 #-------------------------
 tests/coverage*
-
-# Don't save phpunit under version control.
 phpunit
+/phpunit*.xml
 
 #-------------------------
 # Composer
@@ -89,18 +74,11 @@ vendor/
 #-------------------------
 # IDE / Development Files
 #-------------------------
-
-# Modules Testing
 _modules/*
-
-# phpenv local config
 .php-version
-
-# Jetbrains editors (PHPStorm, etc)
 .idea/
 *.iml
 
-# NetBeans
 /nbproject/
 /build/
 /nbbuild/
@@ -110,17 +88,11 @@ _modules/*
 /nb-configuration.xml
 /.nb-gradle/
 
-# Sublime Text
-*.tmlanguage.cache
-*.tmPreferences.cache
-*.stTheme.cache
 *.sublime-workspace
 *.sublime-project
 .phpintel
 /api/
 
-# Visual Studio Code
 .vscode/
 
-/results/
-/phpunit*.xml
+results/
